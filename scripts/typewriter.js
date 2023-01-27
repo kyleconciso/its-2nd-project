@@ -8,14 +8,20 @@ const phrases = [
     'Perfectly Cooked Adobo? Yes, please!',
     'Refreshing Drinks to Quench Your Thirst!',
     'Treat yourself to our delicious desserts!',
-    'Come and enjoy a sumptuous meal with us!'
-];
+    'Come and enjoy a sumptuous meal with us!',
+    'Get your taste buds dancing with D\'Kitchen!',
+    'Discover a world of flavor at D\'Kitchen!',
+    'Experience the taste of Philippines at D\'Kitchen!',
+    'D\'Kitchen - where every meal is a celebration!',
+    'Elevate your dining experience with D\'Kitchen\'s signature dishes!',
+    'D\'Kitchen - where tradition meets innovation in every bite!',
+    ];
 
 
 let currentPhraseIndex = 0;
-const typingDelay = 50;
-const erasingDelay = 25;
-const newPhraseDelay = 350;
+const typingDelay = 25;
+const erasingDelay = 15;
+const newPhraseDelay = 500;
 const appTyping = document.querySelector('.app-typing');
 
 // to avoid blinking effect, we will set the font color alpha to hide the text before the last letter is erased.
@@ -55,7 +61,7 @@ function erase() {
             if (currentPhraseIndex === phrases.length) {
                 currentPhraseIndex = 0;
             }
-            setTimeout(type, newPhraseDelay);
+            setTimeout(type, 0);
         }
     }, erasingDelay);
 }
