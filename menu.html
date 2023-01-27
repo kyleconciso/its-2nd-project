@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- This is a basic website that uses the latest version bootstrap 5.3 -->
+    <!-- A basic navbar -->
+    <header class="mb-4 border-bottom shadow-sm">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid px-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-auto" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto py-2">
+
+                        <a class="navbar-brand app-nav-brand" href="index.html">🍳 D'Kitchen Corner </a>
+                        <!-- <li class="nav-item app-nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li> -->
+                        <li class="nav-item app-nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle app-nav-item active" href="menu.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item app-nav-item" href="menu.html">Overview</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html">Lunch</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html">Dinner</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html">Specials</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html">Drinks</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item app-nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item app-nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- 
+    Adobo - a popular dish made with meat or seafood, soy sauce, and vinegar
+    Sinigang - a sour soup made with tamarind and various vegetables and meat
+    Kare-kare - a stew made with oxtail and vegetables in a peanut sauce
+    Pancit - a stir-fry noodle dish with vegetables and meat
+    Lumpia - a type of spring roll filled with meat and vegetables
+    Bistek - a dish made with thinly sliced beef, onions, and soy sauce
+    Lechon - a whole roasted pig
+    Tapsilog - a meal consisting of garlic fried rice, fried egg and beef tapa
+    Dinner:
+
+    Sisig - a dish made with chopped pork or chicken liver and onions
+    Crispy Pata - a deep-fried pork dish
+    Caldereta - a stew made with beef, pork or goat meat and vegetables
+    Dinuguan - a stew made with pork blood, meat and vegetables
+    Kare-kare - a stew made with oxtail and vegetables in a peanut sauce
+    Bicol Express - a dish made with meat, coconut milk and chili
+    Kaldereta - a stew made with beef, pork or goat meat and vegetables
+    Sinigang - a sour soup made with tamarind and various vegetables and meat
+    Special:
+
+    Lechon - a whole roasted pig
+    Crispy Pata - a deep-fried pork dish
+    Adobo - a popular dish made with meat or seafood, soy sauce, and vinegar
+    Kare-kare - a stew made with oxtail and vegetables in a peanut sauce
+    Caldereta - a stew made with beef, pork or goat meat and vegetables
+    Dinuguan - a stew made with pork blood, meat and vegetables
+    Bistek - a dish made with thinly sliced beef, onions, and soy sauce
+    Pancit - a stir-fry noodle dish with vegetables and meat
+   
+    Drinks:
+    Halo-halo - a popular dessert drink made with shaved ice, milk and various sweetened beans and fruits
+    Sago at Gulaman - a sweet, jelly-like dessert made with sago pearls and gulaman (agar-agar)
+    Sago at Gulaman with milk - a sweet, jelly-like dessert made with sago pearls, gulaman (agar-agar) and milk
+    Buko Juice - a drink made with young coconut water and flesh
+    Calamansi Juice - a drink made with calamansi juice and sugar
+    Mangga't Sago - a sweet dessert made with mango and sago pearls
+    Sago't Gulaman - a sweet, jelly-like dessert made with sago pearls and gulaman (agar-agar)
+    Sago't Gulaman with milk - a sweet, jelly-like dessert made with sago pearls, gulaman (agar-agar) and milk. -->
+
+    <!-- Menu page  -->
+    <!-- a grid that has 3 columns and 3 rows filled with cards and a table -->
+    <div class="container-fluid my-2" style="max-width: 1000px;">
+        <div class="row">
+            <div class="col-3 mb-3">
+
+                <div class="card">
+                    <img src="img/menu/adobo.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Adobo</h5>
+                        <p class="card-text">A popular dish made with meat or seafood, soy sauce, and vinegar.</p>
+                        <a href="#" class="btn btn-primary">₱ 65.00 per serving</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/menu/sinigang.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Sinigang</h5>
+                        <p class="card-text">A sour soup made with tamarind and various vegetables and meat.</p>
+                        <a href="#" class="btn btn-primary">₱ 85.00 per serving</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/menu/kare-kare.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Kare-kare</h5>
+                        <p class="card-text">A stew made with oxtail and vegetables in a peanut sauce.</p>
+                        <a href="#" class="btn btn-primary">₱ 120.00 per serving</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/menu/pancit.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Pancit</h5>
+                        <p class="card-text">A stir-fry noodle dish with vegetables and meat.</p>
+                        <a href="#" class="btn btn-primary">₱ 65.00 per serving</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/menu/lumpia.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Lumpia</h5>
+                        <p class="card-text">A type of spring roll filled with meat and vegetables.</p>
+                        <a href="#" class="btn btn-primary">₱ 45.00 per piece</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/menu/bistek.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Bistek</h5>
+                        <p class="card-text">A dish made with thinly sliced beef, onions, and soy sauce.</p>
+                        <a href="#" class="btn btn-primary">₱ 85.00 per serving</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/menu/lechon.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Lechon</h5>
+                        <p class="card-text">A whole roasted pig.</p>
+                        <a href="#" class="btn btn-primary">₱ 1,500.00</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="img/menu/tapsilog.png" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Tapsilog</h5>
+                        <p class="card-text">A meal consisting of garlic fried rice, fried egg and beef tapa.</p>
+                        <a href="#" class="btn btn-primary">₱ 65.00 per serving</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- A basic footer -->
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="text-center p-3 app-nav-brand" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 D'Kitchen Corner.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
