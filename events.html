@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | D'Kitchen Corner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+</head>
+
+<body>
+    <!-- This is a basic website that uses the latest version bootstrap 5.3 -->
+    <!-- A basic navbar -->
+    <header class="mb-4 border-bottom shadow-sm">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid px-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mx-auto" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto py-2">
+
+                        <a class="navbar-brand app-nav-brand" href="index.html">🍳 D'Kitchen Corner </a>
+                        <!-- <li class="nav-item app-nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li> -->
+                        <li class="nav-item app-nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle app-nav-item" href="menu.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item app-nav-item" href="menu.html">Main Menu</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html#lunch">Lunch</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html#dinner">Dinner</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html#drinks">Drinks</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item app-nav-item">
+                            <a class="nav-link active" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item app-nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <section class="py-3 text-center container">
+        <div class="row py-lg-3 shadow-lg" style="background-image: url('img/cover3.jpg'); background-size: cover;">
+            <div class="col-lg-6 col-md-8 mx-auto text-light">
+                <h1 class="fw-light">Events at D'Kitchen Corner</h1>
+                <p class="lead fw-lighter text-light fs-6">Welcome to the events page of D'Kitchen Corner, where you can
+                    find all the information
+                    about upcoming events, past events, and closed dates at our restaurant.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Upcoming Events</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Event Name</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>7th Birthday Party of Aaron Dalingin</td>
+                            <td>February 15, 2023</td>
+                            <td>6:00 PM</td>
+                            <td>Join us as we celebrate Aaron's 7th birthday with a delicious spread of traditional
+                                Filipino sizzling dishes. There will be games and prizes for the kids, and live music
+                                for everyone to enjoy.</td>
+                        </tr>
+                        <tr>
+                            <td>Wedding Reception of Mary Jane and Michael</td>
+                            <td>March 3, 2023</td>
+                            <td>5:00 PM</td>
+                            <td>Congratulations to Mary Jane and Michael on their special day! Join us for a reception
+                                filled with mouth-watering dishes and good company.</td>
+                        </tr>
+                        <tr>
+                            <td>D'Kitchen Corner's 5th Anniversary Celebration</td>
+                            <td>March 15, 2023</td>
+                            <td>6:00 PM</td>
+                            <td>Join us as we celebrate D'Kitchen Corner's 5th anniversary! We'll be serving up some of
+                                our signature dishes and offering discounts on select menu items.</td>
+                        </tr>
+                        <tr>
+                            <td>Team Building Event for XYZ Corporation</td>
+                            <td>April 10, 2023</td>
+                            <td>11:00 AM</td>
+                            <td>XYZ Corporation is hosting a team building event at D'Kitchen Corner. Come for a
+                                delicious Filipino-style lunch and team-building activities. This event is by invitation
+                                only.</td>
+                        </tr>
+                        <tr>
+                            <td>Mother's Day Special</td>
+                            <td>May 14, 2023</td>
+                            <td>11:00 AM - 2:00 PM</td>
+                            <td>Treat your mom to a special Mother's Day lunch at D'Kitchen Corner. We'll be serving up
+                                a special menu featuring some of our most popular dishes.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2>Past Events</h2>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item">New Year's Eve Party - December 31, 2021</li>
+                    <li class="list-group-item">Valentine's Day Dinner - February 14, 2022</li>
+                    <li class="list-group-item">Easter Sunday Brunch - April 17, 2022</li>
+                    <li class="list-group-item">Mother's Day Celebration - May 8, 2022</li>
+                    <li class="list-group-item">4th Anniversary Celebration - July 15, 2022</li>
+                    <li class="list-group-item">Christmas Party - December 25, 2022</li>
+                </ul>
+
+                <h2>Closed Dates</h2>
+                <p>There are two colors, red and yellow, that are used to indicate the status of the restaurant. Red
+                    indicates that the restaurant is closed, while yellow indicates that the restaurant is open but
+                    with limited hours.</p>
+                <ul class="list-group">
+                    <li class="list-group-item bg-warning-subtle border-warning-subtle">May 1-3, 2022 - Renovation</li>
+                    <li class="list-group-item bg-danger-subtle border-danger-subtle">June 15-20, 2022 - Staff Vacation
+                    </li>
+                    <li class="list-group-item bg-warning-subtle border-warning-subtle">August 1-7, 2022 - Kitchen
+                        Maintenance</li>
+                    <li class="list-group-item bg-danger-subtle border-danger-subtle">December 24-25, 2022 - Christmas
+                        Holidays</li>
+                    <li class="list-group-item bg-danger-subtle border-danger-subtle">January 1, 2023 - New Year's Day
+                    </li>
+                    <li class="list-group-item bg-danger-subtle border-danger-subtle">January 9, 2023 - Nazareno Feast
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-12 text-center">
+                <h2>A Taste of Our Celebrations</h2>
+                <p>From intimate gatherings to grandiose celebrations, D'Kitchen Corner has been a part of countless
+                    memorable events. Take a glimpse at some of the precious moments shared with our customers. Click on
+                    the images to see them in fullscreen.</p>
+            </div>
+        </div>
+
+
+        <section class="image-grid pb-5">
+            <div class="container-xxl">
+                <div class="row gy-4">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <figure>
+                            <a class="d-block" href="">
+                                <img width="1000" height="1000" src="img/events/1.jpg" class="img-fluid"
+                                    alt="Event at D'Kitchen's" style="aspect-ratio: 1/1; object-fit: cover;"
+                                    data-caption="Event at D'Kitchen's">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <figure>
+                            <a class="d-block" href="">
+                                <img width="1000" height="1000" src="img/events/2.jpg" class="img-fluid"
+                                    alt="Event 2 at D'Kitchen's" style="aspect-ratio: 1/1; object-fit: cover;"
+                                    data-caption="Event 2 at D'Kitchen's">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <figure>
+                            <a class="d-block" href="">
+                                <img width="1000" height="1000" src="img/events/3.jpg" class="img-fluid"
+                                    alt="Event 3 at D'Kitchen's" style="aspect-ratio: 1/1; object-fit: cover;"
+                                    data-caption="Event 3 at D'Kitchen's">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <figure>
+                            <a class="d-block" href="">
+                                <img width="1000" height="1000" src="img/events/4.jpg" class="img-fluid"
+                                    alt="Event 4 at D'Kitchen's" style="aspect-ratio: 1/1; object-fit: cover;"
+                                    data-caption="Event 4 at D'Kitchen's">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <figure>
+                            <a class="d-block" href="">
+                                <img width="1000" height="1000" src="img/events/5.jpg" class="img-fluid"
+                                    alt="Event 5 at D'Kitchen's" style="aspect-ratio: 1/1; object-fit: cover;"
+                                    data-caption="Event 5 at D'Kitchen's">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <figure>
+                            <a class="d-block" href="">
+                                <img width="1000" height="1000" src="img/events/6.jpg" class="img-fluid"
+                                    alt="Event 6 at D'Kitchen's" style="aspect-ratio: 1/1; object-fit: cover;"
+                                    data-caption="Event 6 at D'Kitchen's">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="row my-5">
+            <div class="col-md-12 text-center">
+                <h2>Join us for our upcoming events!</h2>
+                <p>D'Kitchen Corner is the perfect place to celebrate any occasion. From birthdays and anniversaries, to
+                    corporate events and holiday parties, we've got you covered. Here at D'Kitchen Corner, we believe
+                    that food is not just about nourishment, but also about creating memories and celebrating special
+                    occasions. Contact us to reserve your spot at our
+                    next event.</p>
+                <a href="contact.html" class="btn btn-primary btn-success">Contact Us</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- a lightbox gallery, images from img/events/1-5.jpg -->
+    <div class="modal lightbox-modal" id="lightbox-modal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="container-fluid p-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- A basic footer -->
+    <div class="container-fluid shadow-lg text-light">
+        <footer class="pt-3 pb-2 mt-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-2 text-muted" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="menu.html">Main Menu</a></li>
+                        <li><a class="dropdown-item" href="menu.html#drinks">Drinks</a></li>
+                        <li><a class="dropdown-item" href="menu.html#desserts">Desserts</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="events.html" class="nav-link px-2 text-muted">Events</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2022 D'Kitchen Corner Restaurant. All rights reserved.</p>
+            <p class="text-center text-muted">Crafted by Psalmwel Kyle M. Conciso (ITS121L/FOPI01)</p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <!-- lightbox js  -->
+    <script src="scripts/lightbox.js"></script>
+
+</body>
+
+</html>

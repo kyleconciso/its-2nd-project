@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | D'Kitchen Corner</title>
+    <title>About | D'Kitchen Corner</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -39,9 +39,10 @@
                                 Menu
                             </a>
                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item app-nav-item" href="menu.html">Main Menu</a></li>
                                 <li><a class="dropdown-item app-nav-item" href="menu.html#lunch">Lunch</a></li>
                                 <li><a class="dropdown-item app-nav-item" href="menu.html#dinner">Dinner</a></li>
-                                <li><a class="dropdown-item app-nav-item" href="menu.html">Drinks</a></li>
+                                <li><a class="dropdown-item app-nav-item" href="menu.html#drinks">Drinks</a></li>
                             </ul>
                         </li>
                         <li class="nav-item app-nav-item">
@@ -63,10 +64,10 @@
             style="background-image: url(img/cover.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div class="container-fluid py-5">
                 <h1 class="display-5 fw-bold app-typing" style="color: rgb(255,255,255,0);">Welcome!</h1>
-                <p class="col-md-8 fs-4">Discover the mouth-watering flavors of our unique Silog dishes and short order
+                <p class="col-md-8 fs-5">Discover the mouth-watering flavors of our unique Silog dishes and short order
                     food. From traditional favorites to new and exciting creations, D'Kitchen Corner serves up sizzling
                     plates that are sure to please your taste buds.</p>
-                <a href="menu.html" class="btn btn-primary btn-lg" role="button">Satisfy your cravings</a>
+                <a href="menu.html" class="btn btn-primary btn-success btn-lg" role="button">Satisfy your cravings</a>
             </div>
         </div>
 
@@ -79,7 +80,7 @@
                         happy to
                         hear from
                         you!</p>
-                    <button class="btn btn-outline-light" type="button">Get in Touch Today</button>
+                    <a href="contact.html" class="btn btn-outline-light" role="button">Get in Touch Today</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -88,7 +89,7 @@
                     <h2>🎉 Join the Fun!</h2>
                     <p>From birthday parties to karaoke, there's always something happening at our restaurant.
                         Check out our upcoming events and mark your calendar!</p>
-                    <button class="btn btn-outline-light" type="button">See What's On the Menu</button>
+                    <a href="events.html" class="btn btn-outline-light" role="button">See What's On the Calendar</a>
                 </div>
             </div>
         </div>
@@ -119,7 +120,7 @@
         <div class="row featurette py-5 align-items-center lh-md px-5">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading fs-1 px-5">Bringing the Heat. <br> <span class="text-muted">See for
-                        yourself. 🤨</span></h2>
+                        yourself. ♨️</span></h2>
                 <p class="lead px-5">Looking for something spicy? Look no further! Our menu features a variety of dishes
                     that
                     pack a punch, from Sinigang na Baboy to Sisig. Perfect for those who love a little heat in their
@@ -156,7 +157,17 @@
         <footer class="pt-3 pb-2 mt-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">About</a></li>
-                <li class="nav-item"><a href="menu.html" class="nav-link px-2 text-muted">Menu</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-2 text-muted" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="menu.html">Main Menu</a></li>
+                        <li><a class="dropdown-item" href="menu.html#drinks">Drinks</a></li>
+                        <li><a class="dropdown-item" href="menu.html#desserts">Desserts</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item"><a href="events.html" class="nav-link px-2 text-muted">Events</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
             </ul>

@@ -13,7 +13,7 @@ const phrases = [
     'Discover a world of flavor at D\'Kitchen!',
     'Experience the taste of Philippines at D\'Kitchen!',
     'D\'Kitchen - where every meal is a celebration!',
-    'Elevate your dining experience with D\'Kitchen\'s signature dishes!',
+    'Elevate your dining experience with signature dishes!',
     'D\'Kitchen - where tradition meets innovation in every bite!',
     ];
 
